@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-yugabytedb/compare/v1.1.0...v1.1.1) (2026-07-19)
+
+
+### Bug Fixes
+
+* set default branch to main ([6c87d95](https://github.com/CoCreate-app/CoCreate-yugabytedb/commit/6c87d95faac786c605cfad1287c8129a3fc85f85))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-yugabytedb/compare/v1.0.0...v1.1.0) (2026-07-19)
 
 
