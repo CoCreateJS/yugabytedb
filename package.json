@@ -45,7 +45,7 @@
   "type": "module",
   "main": "./src/index.js",
   "dependencies": {
-    "@cocreate/postgresql": "^1.0.0",
-    "@cocreate/utils": "^1.44.0"
+    "@cocreate/postgresql": "^1.2.2",
+    "@cocreate/utils": "^1.44.3"
   }
 }
