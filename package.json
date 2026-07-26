@@ -44,6 +44,9 @@
   },
   "type": "module",
   "main": "./src/index.js",
+  "devDependencies": {
+    "@cocreate/webpack": "^1.6.0"
+  },
   "dependencies": {
     "@cocreate/postgresql": "^1.2.2",
     "@cocreate/utils": "^1.44.3"

@@ -19,11 +19,19 @@ import postgresql from "@cocreate/postgresql";
 
 /**
  * Universal router routing YugabyteDB request methods safely.
- * Under the hood, this uses the fully-featured PostgreSQL engine
- * but overrides the storage name context to ensure proper telemetry.
+ *
+ * Under the hood, YugabyteDB utilizes the PostgreSQL wire protocol and SQL dialect.
+ * Rather than re-implementing identical query handling logic, this wrapper
+ * delegates request execution directly to `@cocreate/postgresql`.
+ *
+ * All operations conform to CoCreate's unified, object-oriented JSON protocol
+ * (e.g., `object.create`, `object.read`, `object.update`, `object.delete`).
+ * This standardized protocol operates across all database drivers and third-party
+ * APIs, allowing seamless, parallel multi-database state routing across backends
+ * without exposing underlying engine-specific APIs to the application layer.
  */
 export const send = (data) => {
-	return postgresql.send(data);
+    return postgresql.send(data);
 };
 
 export default { send };
