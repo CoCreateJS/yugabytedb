@@ -4,7 +4,7 @@
   "description": "Lightweight, real-time YugabyteDB CRUD wrapper and multi-tenant state routing client for the collaborative CoCreate ecosystem.",
   "keywords": [
     "yugabytedb",
-    "mysql",
+    "postgresql",
     "sql",
     "jsonb",
     "crud-api",
@@ -44,6 +44,11 @@
   },
   "type": "module",
   "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./distribution": "./dist/mongodb.js",
+    "./installer": "./installer/mongodb.installer.js"
+  },
   "devDependencies": {
     "@cocreate/webpack": "^1.6.0"
   },
