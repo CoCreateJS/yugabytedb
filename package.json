@@ -54,6 +54,6 @@
   },
   "dependencies": {
     "@cocreate/postgresql": "^1.4.0",
-    "@cocreate/utils": "^1.48.0"
+    "@cocreate/utils": "^1.50.0"
   }
 }
