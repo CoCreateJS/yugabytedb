@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoCreate-app/CoCreate-yugabytedb.git"
+    "url": "git+https://gitlab.com/cocreatejs/CoCreate-yugabytedb.git"
   },
   "author": "CoCreate LLC",
   "license": "AGPL-3.0",
