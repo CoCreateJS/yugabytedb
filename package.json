@@ -46,8 +46,7 @@
   "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js",
-    "./dist": "./dist/yugabytedb.js",
-    "./installer": "./installer/yugabytedb.installer.js"
+    "./dist": "./dist/yugabytedb.js"
   },
   "devDependencies": {
     "@cocreate/webpack": "^1.9.0"
