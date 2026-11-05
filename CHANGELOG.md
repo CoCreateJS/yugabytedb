@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/CoCreateJS/yugabytedb/compare/v2.0.0...v2.0.1) (2026-11-05)
+
+
+### Bug Fixes
+
+* upgrade CoCreate dependencies to v2 ([dfc6e60](https://github.com/CoCreateJS/yugabytedb/commit/dfc6e60b5c97ea0c092cb5753ff359fc31084c20))
+
 # [2.0.0](https://github.com/CoCreateJS/yugabytedb/compare/v1.1.1...v2.0.0) (2026-11-02)
 
 
