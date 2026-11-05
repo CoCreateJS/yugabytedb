@@ -49,10 +49,10 @@
     "./dist": "./dist/yugabytedb.js"
   },
   "devDependencies": {
-    "@cocreate/webpack": "^1.9.0"
+    "@cocreate/webpack": "^2.0.0"
   },
   "dependencies": {
-    "@cocreate/postgresql": "^1.5.0",
-    "@cocreate/utils": "^1.54.0"
+    "@cocreate/postgresql": "^2.0.0",
+    "@cocreate/utils": "^2.0.0"
   }
 }
